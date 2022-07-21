@@ -2318,14 +2318,17 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 50%;
 }
 
 .login-form .container .row {
-  margin-top: 10px;
+  margin-top: 20px;
   height: 500px;
 }
-
+@media (max-width: 400px) {
+  .login-form .container .row {
+    margin-top: 40px;
+  }
+}
 
 .login-form .container .row .left-container {
   background: #0C7FF2;
@@ -2407,10 +2410,15 @@ input[type=number]:focus,
 }
 
 .signup-form .container .row {
-  margin-top: 10px;
+  margin-top: 20px;
   height: 500px;
 }
 
+@media (max-width: 400px) {
+  .signup-form .container .row {
+    margin-top: 40px;
+  }
+}
 
 .signup-form .container .row .right-container {
   background: #0C7FF2;
