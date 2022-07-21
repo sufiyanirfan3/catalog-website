@@ -352,6 +352,33 @@ h6,
 .main p{
   font-size: 30px;
 }
+.main .main-img{
+  width: 600px;
+  height: 400px;
+}
+@media (max-width: 1000px) {
+  .main .container{
+    height: 600px;
+  }
+}
+@media (max-width: 550px) {
+  .main{
+    margin-top: 20px;
+  }
+  .main h1{
+    font-size: 40px;
+  }
+  .main p{
+    font-size: 20px;
+  }
+  .main .main-img{
+    width: 450px;
+    height: 300px;
+  }
+  .main .container{
+    height: 460px;
+  }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
